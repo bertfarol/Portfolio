@@ -25,8 +25,8 @@ export default function Home() {
             Creating User-Friendly and Captivating Websites
           </h1>
           <p className="max-w-sm mx-auto mt-6 text-base font-normal text-black/80">
-            Hi, I'm Bert, a Front-End Developer dedicated to transforming ideas
-            into captivating digital solutions.
+            Hi, I&#39;m Bert, a Front-End Developer dedicated to transforming
+            ideas into captivating digital solutions.
           </p>
           <div className="flex justify-center mt-6 lg:mt-14">
             <a
