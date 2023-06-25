@@ -16,6 +16,10 @@
   }
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 .subheading::before {
   content: "";
   position: absolute;
