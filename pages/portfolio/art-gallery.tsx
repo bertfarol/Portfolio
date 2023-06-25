@@ -63,10 +63,10 @@ export default function ArtGallery() {
                 implemented puts the focus on the vibrant artwork, allowing it
                 to truly shine. Visitors can explore carefully curated
                 exhibitions, discover talented artists, and appreciate the
-                stunning imagery that showcases the gallery's exceptional art
+                stunning imagery that showcases the gallery&apos;s exceptional art
                 collection. Although the new website is not yet live, you can
                 still visit the existing website via the provided link to catch
-                a glimpse of the gallery's offerings and immerse yourself in its
+                a glimpse of the gallery&apos;s offerings and immerse yourself in its
                 artistic ambiance.
               </p>
               <div className="flex mt-6 lg:mt-14">
