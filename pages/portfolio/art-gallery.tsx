@@ -8,7 +8,7 @@ export default function ArtGallery() {
     <Layout
       title="Art Gallery Website"
       description="Art Gallery Showcase: A Digital Platform for Artistic Expression"
-      image="/espacio-ogimage.jpg"
+      image="/portfolio/espacio-manila/ogimage.png"
     >
       <main>
         <section className="pb-8 lg:pb-36">
@@ -47,13 +47,13 @@ export default function ArtGallery() {
                 website exhibits exceptional speed and performance, ensuring a
                 seamless browsing experience for visitors. To visit the existing
                 website, you can still access the old version at{" "}
-                <Link
+                <a
                   href="https://espaciomanilagallery.com/"
                   className="underline text-accent-blue hover:no-underline"
                   target="_blank"
                 >
                   https://espaciomanilagallery.com/
-                </Link>
+                </a>
                 .
               </p>
               <p className="leading-relaxed">
@@ -63,14 +63,14 @@ export default function ArtGallery() {
                 implemented puts the focus on the vibrant artwork, allowing it
                 to truly shine. Visitors can explore carefully curated
                 exhibitions, discover talented artists, and appreciate the
-                stunning imagery that showcases the gallery&apos;s exceptional art
-                collection. Although the new website is not yet live, you can
-                still visit the existing website via the provided link to catch
-                a glimpse of the gallery&apos;s offerings and immerse yourself in its
-                artistic ambiance.
+                stunning imagery that showcases the gallery&apos;s exceptional
+                art collection. Although the new website is not yet live, you
+                can still visit the existing website via the provided link to
+                catch a glimpse of the gallery&apos;s offerings and immerse
+                yourself in its artistic ambiance.
               </p>
               <div className="flex mt-6 lg:mt-14">
-                <Link
+                <a
                   href="https://espacio-manila.vercel.app/"
                   target="_blank"
                   className="bg-accent-blue flex items-center gap-2 hover:bg-accent-blue/80 text-white font-bold text-sm px-4 py-3.5 rounded-lg w-full sm:w-auto justify-center"
@@ -78,32 +78,23 @@ export default function ArtGallery() {
                   View Espacio Manila
                   <Icon
                     icon="formkit:arrowright"
-                    className="hidden w-5 h-5 sm:inline-block"
+                    className="hidden w-5 h-5 -rotate-45 sm:inline-block"
                   />
-                </Link>
+                </a>
               </div>
               <div className="mt-8 lg:mt-16">
                 <p className="text-sm text-slate-500">Technology:</p>
-                <ul className="flex gap-6 mt-2 text-base">
+                <ul className="flex flex-wrap gap-6 mt-2 text-base">
                   <li className="flex items-center gap-2">
-                    <Icon
-                      icon="logos:nextjs-icon"
-                      className="hidden w-6 h-6 sm:inline-block"
-                    />
+                    <Icon icon="logos:nextjs-icon" className="w-6 h-6" />
                     <span>Next.js</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <Icon
-                      icon="skill-icons:typescript"
-                      className="hidden w-6 h-6 sm:inline-block"
-                    />
+                    <Icon icon="skill-icons:typescript" className="w-6 h-6" />
                     <span>TypeScript</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <Icon
-                      icon="devicon:tailwindcss"
-                      className="hidden w-6 h-6 sm:inline-block"
-                    />
+                    <Icon icon="devicon:tailwindcss" className="w-6 h-6" />
                     <span>tailwindcss</span>
                   </li>
                 </ul>
@@ -111,16 +102,13 @@ export default function ArtGallery() {
               <div className="mt-8">
                 <p className="text-sm text-slate-500">Hosting platform:</p>
                 <div className="flex items-center gap-2 mt-2 text-base">
-                  <Icon
-                    icon="devicon:vercel"
-                    className="hidden w-6 h-6 sm:inline-block"
-                  />
+                  <Icon icon="devicon:vercel" className="w-6 h-6" />
                   <span>Vercel</span>
                 </div>
               </div>
               <div className="mt-8">
                 <p className="text-sm text-slate-500">Website pages:</p>
-                <ul className="flex gap-4 mt-2 text-base text-accent-blue">
+                <ul className="flex flex-wrap gap-4 mt-2 text-base text-accent-blue">
                   <li>
                     <a href="#home" className=" hover:underline">
                       #Homepage
@@ -147,7 +135,7 @@ export default function ArtGallery() {
           </div>
         </section>
 
-        <section className="py-8 lg:py-36 bg-[#504d3d]">
+        <section className="py-8 lg:py-36 bg-[#292929]">
           <div className="px-4 mx-auto text-white max-w-7xl md:px-8">
             {/* contianer */}
             <div id="home">
@@ -170,7 +158,7 @@ export default function ArtGallery() {
               </h2>
               <div className="mt-8">
                 <Image
-                  src="/portfolio/espacio-manila/artwork-page.png"
+                  src="/portfolio/espacio-manila/artworks-page.png"
                   width="1920"
                   height="1740"
                   alt="Espacio Manila Gallery"

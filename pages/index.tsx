@@ -211,7 +211,7 @@ export default function Home() {
               </p>
               <div className="flex mt-6 lg:mt-14">
                 <a
-                  href="/Resume_Engelbert _Farol.pdf"
+                  href="/resume.pdf"
                   target="_blank"
                   className="bg-accent-blue flex items-center gap-2 hover:bg-accent-blue/80 text-white font-bold text-sm px-4 py-3.5 rounded-lg w-full sm:w-auto justify-center"
                 >
@@ -354,7 +354,7 @@ export default function Home() {
           <div className="grid sm:grid-cols-2 sm:gap-6 lg:gap-10 md:grid-cols-3">
             <Link
               href="/portfolio/art-gallery"
-              className="pt-2 mt-12 text-white border-t border-white group lg:pt-5 hover:bg-[#222222]/30"
+              className="pt-2 mt-12 text-white border-t border-white group lg:pt-5"
             >
               <h3 className="text-3xl font-semibold duration-300 group-hover:text-accent-blue xl:text-h3">
                 Art Gallery Website
@@ -362,7 +362,7 @@ export default function Home() {
               <span className="inline-block mt-3 text-sm">
                 Portfolio and Business Website
               </span>
-              <div className="relative mt-6 after:content-[''] lg:after:h-[260px] after:w-full after:absolute after:bottom-0 after:left-0 after:bg-gradient-to-t after:from-black after:to-black/0 group-hover:opacity-70 duration-300">
+              <div className="relative mt-6 after:content-[''] lg:after:h-[260px] after:w-full after:absolute after:bottom-0 after:left-0 after:bg-gradient-to-t after:from-black  after:duration-300 after:to-black/0 group-hover:after:h-0 duration-300">
                 <Image
                   src="/espacio-manila.jpg"
                   width="1000"
@@ -371,15 +371,15 @@ export default function Home() {
                 />
               </div>
             </Link>
-            <a
-              href="#"
-              className="pt-2 mt-12 text-white border-t border-white group lg:pt-5 hover:bg-[#222222]/30"
+            <Link
+              href="/portfolio/twitter-clone"
+              className="pt-2 mt-12 text-white border-t border-white group lg:pt-5"
             >
               <h3 className="text-3xl font-semibold duration-300 xl:text-h3 group-hover:text-accent-blue">
                 Social Media Web App
               </h3>
               <span className="inline-block mt-3 text-sm">Web application</span>
-              <div className="relative mt-6 after:content-[''] lg:after:h-[260px] after:w-full after:absolute after:bottom-0 after:left-0 after:bg-gradient-to-t after:from-black after:to-black/0 group-hover:opacity-70 duration-300">
+              <div className="relative mt-6 after:content-[''] lg:after:h-[260px] after:w-full after:absolute after:bottom-0 after:left-0 after:bg-gradient-to-t after:from-black  after:duration-300 after:to-black/0 group-hover:after:h-0 duration-300">
                 <Image
                   src="/twitter-clone-app.jpg"
                   width="1000"
@@ -387,18 +387,18 @@ export default function Home() {
                   alt="Twitter clone app"
                 />
               </div>
-            </a>
-            <a
-              href="#"
-              className="pt-2 mt-12 text-white border-t border-white group lg:pt-5 hover:bg-[#222222]/30"
+            </Link>
+            <Link
+              href="/portfolio/url-shortener-landing-page"
+              className="pt-2 mt-12 text-white border-t border-white group lg:pt-5"
             >
               <h3 className="text-3xl font-semibold duration-300 xl:text-h3 group-hover:text-accent-blue">
                 Product Landing Page
               </h3>
               <span className="inline-block mt-3 text-sm">
-                Web/Landing Page
+                Landing Page
               </span>
-              <div className="relative mt-6 after:content-[''] lg:after:h-[260px] after:w-full after:absolute after:bottom-0 after:left-0 after:bg-gradient-to-t after:from-black after:to-black/0 group-hover:opacity-70 duration-300">
+              <div className="relative mt-6 after:content-[''] lg:after:h-[260px] after:w-full after:absolute after:bottom-0 after:left-0 after:bg-gradient-to-t after:from-black  after:duration-300 after:to-black/0 group-hover:after:h-0 duration-300">
                 <Image
                   src="/url-shortener.jpg"
                   width="1000"
@@ -406,7 +406,7 @@ export default function Home() {
                   alt="Espacio Manila Gallery"
                 />
               </div>
-            </a>
+            </Link>
           </div>
           {/* end** List of projects */}
         </div>
