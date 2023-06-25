@@ -48,8 +48,8 @@ export default function UrlShortner() {
                 shortening. By transforming long and complex links into concise,
                 memorable, and shareable URLs, I demonstrate the value of
                 improved readability and simplified content sharing. Explore my
-                portfolio to see examples of my work, and let's collaborate to
-                create a visually appealing URL Shortener landing page that
+                portfolio to see examples of my work, and let&apos;s collaborate
+                to create a visually appealing URL Shortener landing page that
                 effectively presents your product and captivates your audience.
               </p>
               <div className="flex mt-6 lg:mt-14">
@@ -69,17 +69,11 @@ export default function UrlShortner() {
                 <p className="text-sm text-slate-500">Technology:</p>
                 <ul className="flex flex-wrap gap-6 mt-2 text-base">
                   <li className="flex items-center gap-2">
-                    <Icon
-                      icon="logos:nextjs-icon"
-                      className="w-6 h-6"
-                    />
+                    <Icon icon="logos:nextjs-icon" className="w-6 h-6" />
                     <span>Next.js</span>
                   </li>
                   <li className="flex items-center gap-2">
-                    <Icon
-                      icon="devicon:tailwindcss"
-                      className="w-8 h-6"
-                    />
+                    <Icon icon="devicon:tailwindcss" className="w-8 h-6" />
                     <span>tailwindcss</span>
                   </li>
                 </ul>
@@ -87,10 +81,7 @@ export default function UrlShortner() {
               <div className="mt-8">
                 <p className="text-sm text-slate-500">Hosting platform:</p>
                 <div className="flex items-center gap-2 mt-2 text-base">
-                  <Icon
-                    icon="ri:github-fill"
-                    className="w-6 h-6"
-                  />
+                  <Icon icon="ri:github-fill" className="w-6 h-6" />
                   <span>GitHub Pages</span>
                 </div>
               </div>
