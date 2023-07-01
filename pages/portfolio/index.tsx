@@ -28,14 +28,14 @@ export default function ArtGallery() {
               >
                 <div className="relative overflow-hidden duration-300 rounded-sm group-hover:opacity-70 shadow-5xl">
                   <Image
-                    src="/espacio-manila.jpg"
-                    width="1000"
-                    height="750"
+                    src="/portfolio/espacio-manila/cover.jpg"
+                    width="1400"
+                    height="1051"
                     alt="Espacio Manila Gallery"
                   />
                 </div>
                 <h3 className="mt-6 font-semibold duration-300 text-h5 group-hover:text-accent-blue">
-                  Art Gallery Website
+                  Espacio Manila
                 </h3>
                 <span className="inline-block mt-1 text-sm">
                   Portfolio and Business Website
@@ -47,14 +47,14 @@ export default function ArtGallery() {
               >
                 <div className="relative overflow-hidden duration-300 rounded-sm group-hover:opacity-70 shadow-5xl">
                   <Image
-                    src="/twitter-clone-app.jpg"
-                    width="1000"
-                    height="750"
+                    src="/portfolio/twitter-clone/cover2.jpg"
+                    width="1400"
+                    height="1051"
                     alt="Twitter clone app"
                   />
                 </div>
                 <h3 className="mt-6 font-semibold duration-300 text-h5 group-hover:text-accent-blue">
-                  Social Media Web App
+                  Twitter Clone
                 </h3>
                 <span className="inline-block mt-1 text-sm">
                   Web application
@@ -66,18 +66,33 @@ export default function ArtGallery() {
               >
                 <div className="relative overflow-hidden duration-300 rounded-sm group-hover:opacity-70 shadow-5xl">
                   <Image
-                    src="/url-shortener.jpg"
-                    width="1000"
-                    height="750"
+                    src="/portfolio/url-shortener/cover.jpg"
+                    width="1400"
+                    height="1051"
                     alt="Espacio Manila Gallery"
                   />
                 </div>
                 <h3 className="mt-6 font-semibold duration-300 text-h5 group-hover:text-accent-blue ">
-                  Product Landing Page
+                  URL Shortener
                 </h3>
-                <span className="inline-block mt-1 text-sm">
-                  Landing Page
-                </span>
+                <span className="inline-block mt-1 text-sm">Landing Page</span>
+              </Link>
+              <Link
+                href="/portfolio/applab-clone"
+                className="pt-2 mt-12 group lg:pt-5"
+              >
+                <div className="relative overflow-hidden duration-300 rounded-sm group-hover:opacity-70 shadow-5xl">
+                  <Image
+                    src="/portfolio/applab/cover.jpg"
+                    width="1400"
+                    height="1051"
+                    alt="Espacio Manila Gallery"
+                  />
+                </div>
+                <h3 className="mt-6 font-semibold duration-300 text-h5 group-hover:text-accent-blue ">
+                  Applab
+                </h3>
+                <span className="inline-block mt-1 text-sm">Landing Page</span>
               </Link>
             </div>
           </div>

@@ -29,7 +29,7 @@ export const Navbar = () => {
               Home
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               href="#"
               className="text-gray-400 font-normal cursor-not-allowed text-2xl p-5 border-b border-[#f3f3f3] block"
@@ -44,13 +44,21 @@ export const Navbar = () => {
             >
               Service
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
               href="/portfolio"
               className="text-2xl p-5 border-b border-[#f3f3f3] block"
             >
               Portfolio
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/resume.pdf"
+              className="text-2xl p-5 border-b border-[#f3f3f3] block"
+            >
+              Resume
             </Link>
           </li>
         </ul>
@@ -72,14 +80,17 @@ export const Navbar = () => {
           </Link>
         </div>
         <div className="hidden gap-2 text-sm font-medium lg:flex">
-          <Link href="#" className="p-3 text-gray-400 cursor-not-allowed">
+          {/* <Link href="#" className="p-3 text-gray-400 cursor-not-allowed">
             About
           </Link>
           <Link href="#" className="p-3 text-gray-400 cursor-not-allowed">
             Service
-          </Link>
+          </Link> */}
           <Link href="/portfolio" className="p-3 hover:text-accent-blue">
             Portfolio
+          </Link>
+          <Link href="/resume.pdf" className="p-3 hover:text-accent-blue" target="_blank">
+            Resume
           </Link>
         </div>
         <Icon

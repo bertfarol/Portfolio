@@ -54,6 +54,16 @@ export default function Home() {
                 className="duration-300 h-7 w-7 group-hover:text-accent-blue"
               />
             </a>
+            <a
+              target="_blank"
+              href="https://www.behance.net/efarolcamp7bd0"
+              className="bg-[#F6F6F6] rounded-full h-[58px] w-[58px] lg:h-[74px] lg:w-[74px] flex items-center justify-center group"
+            >
+              <Icon
+                icon="ant-design:behance-square-outlined"
+                className="duration-300 h-7 w-7 group-hover:text-accent-blue"
+              />
+            </a>
           </div>
         </div>
         <div className="absolute bottom-0 left-0 w-full position">
@@ -357,14 +367,14 @@ export default function Home() {
               className="pt-2 mt-12 text-white border-t border-white group lg:pt-5"
             >
               <h3 className="text-3xl font-semibold duration-300 group-hover:text-accent-blue xl:text-h3">
-                Art Gallery Website
+                Espacio Manila
               </h3>
               <span className="inline-block mt-3 text-sm">
                 Portfolio and Business Website
               </span>
               <div className="relative mt-6 after:content-[''] lg:after:h-[260px] after:w-full after:absolute after:bottom-0 after:left-0 after:bg-gradient-to-t after:from-black  after:duration-300 after:to-black/0 group-hover:after:h-0 duration-300">
                 <Image
-                  src="/espacio-manila.jpg"
+                  src="/portfolio/espacio-manila/cover.jpg"
                   width="1000"
                   height="750"
                   alt="Espacio Manila Gallery"
@@ -376,12 +386,12 @@ export default function Home() {
               className="pt-2 mt-12 text-white border-t border-white group lg:pt-5"
             >
               <h3 className="text-3xl font-semibold duration-300 xl:text-h3 group-hover:text-accent-blue">
-                Social Media Web App
+                Twitter Clone
               </h3>
               <span className="inline-block mt-3 text-sm">Web application</span>
               <div className="relative mt-6 after:content-[''] lg:after:h-[260px] after:w-full after:absolute after:bottom-0 after:left-0 after:bg-gradient-to-t after:from-black  after:duration-300 after:to-black/0 group-hover:after:h-0 duration-300">
                 <Image
-                  src="/twitter-clone-app.jpg"
+                  src="/portfolio/twitter-clone/cover2.jpg"
                   width="1000"
                   height="750"
                   alt="Twitter clone app"
@@ -393,14 +403,12 @@ export default function Home() {
               className="pt-2 mt-12 text-white border-t border-white group lg:pt-5"
             >
               <h3 className="text-3xl font-semibold duration-300 xl:text-h3 group-hover:text-accent-blue">
-                Product Landing Page
+                URL Shortener
               </h3>
-              <span className="inline-block mt-3 text-sm">
-                Landing Page
-              </span>
+              <span className="inline-block mt-3 text-sm">Landing Page</span>
               <div className="relative mt-6 after:content-[''] lg:after:h-[260px] after:w-full after:absolute after:bottom-0 after:left-0 after:bg-gradient-to-t after:from-black  after:duration-300 after:to-black/0 group-hover:after:h-0 duration-300">
                 <Image
-                  src="/url-shortener.jpg"
+                  src="/portfolio/url-shortener/cover.jpg"
                   width="1000"
                   height="750"
                   alt="Espacio Manila Gallery"
