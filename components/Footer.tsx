@@ -3,7 +3,10 @@ import React from 'react'
 
 export const Footer = () => {
   return (
-    <div className="pb-4 pt-14 lg:pt-36 lg:pb-6 lg:bg-[url('/blur_contact.png')] bg-no-repeat bg-center-top">
+    <footer
+      id="contact"
+      className="pb-4 pt-14 lg:pt-36 lg:pb-6 lg:bg-[url('/blur_contact.png')] bg-no-repeat bg-center-top"
+    >
       <div className="max-w-lg px-4 pb-12 mx-auto lg:pb-60">
         <p className="text-[#0D99FF]">Contact</p>
         <h2 className="text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl xl:text-h2">
@@ -48,6 +51,6 @@ export const Footer = () => {
           <p className="font-medium">efarolcamposano@gmail.com</p>
         </div>
       </div>
-    </div>
+    </footer>
   );
 }

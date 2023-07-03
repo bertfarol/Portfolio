@@ -7,8 +7,8 @@ export default function ApplabClone() {
   return (
     <Layout
       title="Applab Landing Page"
-      description="Transforming Ideas into Engaging and User-Friendly Web Applications"
-      image="/espacio-ogimage.jpg"
+      description="Showcase of my skills in cloning and translating designs into functional HTML using Bootstrap."
+      image="/applab-ogimage.jpg"
     >
       <main>
         <section className="pb-8 lg:pb-36">

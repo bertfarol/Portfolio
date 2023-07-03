@@ -6,9 +6,9 @@ import Link from "next/link";
 export default function TwitterClone() {
   return (
     <Layout
-      title="Social Media Web App"
-      description="Transforming Ideas into Engaging and User-Friendly Web Applications"
-      image="/espacio-ogimage.jpg"
+      title="Twitter Clone App"
+      description=" I developed this Twitter clone web application not merely as a replication of the existing platform, but rather as a means to gain a deeper understanding of its development process while showcasing my skills and knowledge in Next.js."
+      image="/twitterclone-ogimage.jpg"
     >
       <main>
         <section className="pb-8 lg:pb-36">

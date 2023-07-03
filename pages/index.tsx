@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Icon } from "@iconify/react";
 import Image from "next/image";
 import Layout from "@/components/Layout";
+import { PrimaryButton } from "@/components/Button";
 
 export default function Home() {
   return (
@@ -21,16 +22,9 @@ export default function Home() {
             ideas into captivating digital solutions.
           </p>
           <div className="flex justify-center mt-6 lg:mt-14">
-            <Link
-              href="/portfolio"
-              className="bg-accent-blue flex items-center gap-2 hover:bg-accent-blue/80 text-white font-bold text-sm px-4 py-3.5 rounded-lg w-full sm:w-auto justify-center"
-            >
+            <PrimaryButton href="/portfolio" icon="formkit:arrowright">
               View Portfolio
-              <Icon
-                icon="formkit:arrowright"
-                className="hidden w-5 h-5 sm:inline-block"
-              />
-            </Link>
+            </PrimaryButton>
           </div>
           <p className="mt-20 text-sm text-black/70 lg:mt-28">Check Out My</p>
           <div className="flex gap-4 mx-auto mt-6 lg:gap-6 lg:mt-10 w-fit">

@@ -1,6 +1,18 @@
 import Layout from "@/components/Layout";
 import Image from "next/image";
 import Link from "next/link";
+import { ReactNode } from "react";
+
+interface BadgeProp {
+  children: ReactNode;
+}
+export function Badge({ children }: BadgeProp) {
+  return (
+    <span className="inline-flex items-center px-2 py-1 text-xs font-medium text-gray-600 rounded-md bg-gray-50 ring-1 ring-inset ring-gray-500/10">
+      {children}
+    </span>
+  );
+}
 
 export default function ArtGallery() {
   return (
@@ -40,6 +52,14 @@ export default function ArtGallery() {
                 <span className="inline-block mt-1 text-sm">
                   Portfolio and Business Website
                 </span>
+                <div className="flex gap-2 mt-2">
+                  <Badge>Next.js</Badge>
+                  <Badge>TypeScript</Badge>
+                  <Badge>Tailwindcss</Badge>
+                  <Badge>Figma</Badge>
+                  <Badge>PSD</Badge>
+                  <Badge>Vercel</Badge>
+                </div>
               </Link>
               <Link
                 href="/portfolio/twitter-clone"
@@ -59,6 +79,15 @@ export default function ArtGallery() {
                 <span className="inline-block mt-1 text-sm">
                   Web application
                 </span>
+                <div className="flex flex-wrap gap-2 mt-2 ">
+                  <Badge>Next.js</Badge>
+                  <Badge>NextAuth.js</Badge>
+                  <Badge>SWR</Badge>
+                  <Badge>TypeScript</Badge>
+                  <Badge>Tailwindcss</Badge>
+                  <Badge>Sanity.io</Badge>
+                  <Badge>Vercel</Badge>
+                </div>
               </Link>
               <Link
                 href="/portfolio/url-shortener-landing-page"
@@ -76,6 +105,10 @@ export default function ArtGallery() {
                   URL Shortener
                 </h3>
                 <span className="inline-block mt-1 text-sm">Landing Page</span>
+                <div className="flex flex-wrap gap-2 mt-2 ">
+                  <Badge>Next.js</Badge>
+                  <Badge>Tailwindcss</Badge>
+                </div>
               </Link>
               <Link
                 href="/portfolio/applab-clone"
@@ -93,6 +126,13 @@ export default function ArtGallery() {
                   Applab
                 </h3>
                 <span className="inline-block mt-1 text-sm">Landing Page</span>
+                <div className="flex flex-wrap gap-2 mt-2 ">
+                  <Badge>HTML5</Badge>
+                  <Badge>CSS3</Badge>
+                  <Badge>Bootstrap</Badge>
+                  <Badge>JavaScript</Badge>
+                  <Badge>JQuery</Badge>
+                </div>
               </Link>
               <Link
                 href="/portfolio/green-cleaner"
@@ -112,6 +152,10 @@ export default function ArtGallery() {
                 <span className="inline-block mt-1 text-sm">
                   Web Design/Landing Page
                 </span>
+                <div className="flex flex-wrap gap-2 mt-2 ">
+                  <Badge>Figma</Badge>
+                  <Badge>PSD</Badge>
+                </div>
               </Link>
             </div>
           </div>

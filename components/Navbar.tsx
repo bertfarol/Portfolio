@@ -56,10 +56,19 @@ export const Navbar = () => {
           <li>
             <Link
               href="/resume.pdf"
+              target="_blank"
               className="text-2xl p-5 border-b border-[#f3f3f3] block"
             >
               Resume
             </Link>
+          </li>
+          <li>
+            <a
+              href="#contact"
+              className="text-2xl p-5 border-b border-[#f3f3f3] block"
+            >
+              Contact
+            </a>
           </li>
         </ul>
       </div>
@@ -92,6 +101,9 @@ export const Navbar = () => {
           <Link href="/resume.pdf" className="p-3 hover:text-accent-blue" target="_blank">
             Resume
           </Link>
+          <a href="#contact" className="p-3 hover:text-accent-blue">
+            Contact
+          </a>
         </div>
         <Icon
           icon="clarity:menu-line"

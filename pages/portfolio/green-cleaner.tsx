@@ -8,7 +8,7 @@ export default function GreenCleaner() {
     <Layout
       title="Green Cleaner Landing Page"
       description="strategically crafted to highlight the most desirable products and engage customers with irresistible promotions."
-      image="/espacio-ogimage.jpg"
+      image="/green-cleaner-ogimage.jpg"
     >
       <main>
         <section className="pb-8 lg:pb-36">
@@ -90,17 +90,17 @@ export default function GreenCleaner() {
               </h2>
               <div className="mt-8">
                 <Image
-                  src="/portfolio/green-cleaner/style.jpg"
-                  width="1400"
-                  height="1181"
+                  src="/portfolio/green-cleaner/homepage.jpg"
+                  width="1920"
+                  height="3418"
                   alt="Green Cleaner"
                 />
               </div>
               <div className="mt-10">
                 <Image
-                  src="/portfolio/green-cleaner/homepage.jpg"
-                  width="1920"
-                  height="3418"
+                  src="/portfolio/green-cleaner/style.jpg"
+                  width="1400"
+                  height="1181"
                   alt="Green Cleaner"
                 />
               </div>

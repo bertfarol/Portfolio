@@ -7,8 +7,8 @@ export default function UrlShortner() {
   return (
     <Layout
       title="URL Shortener Landing Page"
-      description="Transforming Ideas into Engaging and User-Friendly Web Applications"
-      image="/espacio-ogimage.jpg"
+      description="I specialize in building impactful landing pages for innovative products and services, including URL Shorteners."
+      image="/urlshortener-ogimage.jpg"
     >
       <main>
         <section className="pb-8 lg:pb-36">
