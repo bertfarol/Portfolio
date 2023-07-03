@@ -10,7 +10,7 @@ export default function ArtGallery() {
       image="/portfolio-ogimage.jpg"
     >
       <main className="py-8 lg:py-24 lg:bg-[url('/blur_services.png')] bg-no-repeat bg-top bg-contain">
-        <section className="">
+        <section>
           <div className="px-4 mx-auto max-w-7xl md:px-8">
             <div className="text-center">
               <h1 className="text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl xl:text-h2">
@@ -26,11 +26,11 @@ export default function ArtGallery() {
                 href="/portfolio/art-gallery"
                 className="pt-2 mt-12 group lg:pt-5"
               >
-                <div className="relative overflow-hidden duration-300 rounded-sm group-hover:opacity-70 shadow-5xl">
+                <div className="relative overflow-hidden duration-300 rounded-lg group-hover:opacity-70 shadow-5xl">
                   <Image
-                    src="/portfolio/espacio-manila/cover.jpg"
-                    width="1400"
-                    height="1051"
+                    src="/portfolio/espacio-manila/thumbnail.jpg"
+                    width="800"
+                    height="800"
                     alt="Espacio Manila Gallery"
                   />
                 </div>
@@ -45,11 +45,11 @@ export default function ArtGallery() {
                 href="/portfolio/twitter-clone"
                 className="pt-2 mt-12 group lg:pt-5"
               >
-                <div className="relative overflow-hidden duration-300 rounded-sm group-hover:opacity-70 shadow-5xl">
+                <div className="relative overflow-hidden duration-300 rounded-lg group-hover:opacity-70 shadow-5xl">
                   <Image
-                    src="/portfolio/twitter-clone/cover2.jpg"
-                    width="1400"
-                    height="1051"
+                    src="/portfolio/twitter-clone/thumbnail.jpg"
+                    width="800"
+                    height="800"
                     alt="Twitter clone app"
                   />
                 </div>
@@ -64,12 +64,12 @@ export default function ArtGallery() {
                 href="/portfolio/url-shortener-landing-page"
                 className="pt-2 mt-12 group lg:pt-5"
               >
-                <div className="relative overflow-hidden duration-300 rounded-sm group-hover:opacity-70 shadow-5xl">
+                <div className="relative overflow-hidden duration-300 rounded-lg group-hover:opacity-70 shadow-5xl">
                   <Image
-                    src="/portfolio/url-shortener/cover.jpg"
-                    width="1400"
-                    height="1051"
-                    alt="Espacio Manila Gallery"
+                    src="/portfolio/url-shortener/thumbnail.jpg"
+                    width="800"
+                    height="800"
+                    alt="URL Shortener Landing Page"
                   />
                 </div>
                 <h3 className="mt-6 font-semibold duration-300 text-h5 group-hover:text-accent-blue ">
@@ -81,18 +81,37 @@ export default function ArtGallery() {
                 href="/portfolio/applab-clone"
                 className="pt-2 mt-12 group lg:pt-5"
               >
-                <div className="relative overflow-hidden duration-300 rounded-sm group-hover:opacity-70 shadow-5xl">
+                <div className="relative overflow-hidden duration-300 rounded-lg group-hover:opacity-70 shadow-5xl">
                   <Image
-                    src="/portfolio/applab/cover.jpg"
+                    src="/portfolio/applab/thumbnail.jpg"
                     width="1400"
-                    height="1051"
-                    alt="Espacio Manila Gallery"
+                    height="800"
+                    alt="Applab Landing Page"
                   />
                 </div>
                 <h3 className="mt-6 font-semibold duration-300 text-h5 group-hover:text-accent-blue ">
                   Applab
                 </h3>
                 <span className="inline-block mt-1 text-sm">Landing Page</span>
+              </Link>
+              <Link
+                href="/portfolio/green-cleaner"
+                className="pt-2 mt-12 group lg:pt-5"
+              >
+                <div className="relative overflow-hidden duration-300 rounded-lg group-hover:opacity-70 shadow-5xl">
+                  <Image
+                    src="/portfolio/green-cleaner/thumbnail.jpg"
+                    width="1400"
+                    height="800"
+                    alt="Green Cleaner"
+                  />
+                </div>
+                <h3 className="mt-6 font-semibold duration-300 text-h5 group-hover:text-accent-blue ">
+                  Green Cleaner
+                </h3>
+                <span className="inline-block mt-1 text-sm">
+                  Web Design/Landing Page
+                </span>
               </Link>
             </div>
           </div>

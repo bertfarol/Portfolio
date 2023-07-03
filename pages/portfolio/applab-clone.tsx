@@ -64,7 +64,7 @@ export default function ApplabClone() {
                 </a>
               </div>
               <div className="mt-8 lg:mt-16">
-                <p className="text-sm text-slate-500">Technology:</p>
+                <p className="text-sm text-slate-500">Technologies:</p>
                 <ul className="flex flex-wrap gap-6 mt-2 text-base">
                   <li className="flex items-center gap-2">
                     <Icon
@@ -84,6 +84,10 @@ export default function ApplabClone() {
                   <li className="flex items-center gap-2">
                     <Icon icon="logos:javascript" className="w-6 h-6" />
                     <span>JavaScript</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Icon icon="devicon:jquery" className="w-6 h-6" />
+                    <span>JQuery</span>
                   </li>
                 </ul>
               </div>

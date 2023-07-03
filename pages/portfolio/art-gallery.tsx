@@ -83,7 +83,7 @@ export default function ArtGallery() {
                 </a>
               </div>
               <div className="mt-8 lg:mt-16">
-                <p className="text-sm text-slate-500">Technology:</p>
+                <p className="text-sm text-slate-500">Technologies:</p>
                 <ul className="flex flex-wrap gap-6 mt-2 text-base">
                   <li className="flex items-center gap-2">
                     <Icon icon="logos:nextjs-icon" className="w-6 h-6" />
@@ -105,6 +105,19 @@ export default function ArtGallery() {
                   <Icon icon="devicon:vercel" className="w-6 h-6" />
                   <span>Vercel</span>
                 </div>
+              </div>
+              <div className="mt-8">
+                <p className="text-sm text-slate-500">Design Tools:</p>
+                <ul className="flex flex-wrap gap-6 mt-2 text-base">
+                  <li className="flex items-center gap-2">
+                    <Icon icon="logos:figma" className="w-6 h-6" />
+                    <span>Figma</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <Icon icon="skill-icons:photoshop" className="w-6 h-6" />
+                    <span>Photoshop</span>
+                  </li>
+                </ul>
               </div>
               <div className="mt-8">
                 <p className="text-sm text-slate-500">Website pages:</p>

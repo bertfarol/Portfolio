@@ -374,7 +374,7 @@ export default function Home() {
               </span>
               <div className="relative mt-6 after:content-[''] lg:after:h-[260px] after:w-full after:absolute after:bottom-0 after:left-0 after:bg-gradient-to-t after:from-black  after:duration-300 after:to-black/0 group-hover:after:h-0 duration-300">
                 <Image
-                  src="/portfolio/espacio-manila/cover.jpg"
+                  src="/portfolio/espacio-manila/thumbnail.jpg"
                   width="1000"
                   height="750"
                   alt="Espacio Manila Gallery"
@@ -391,7 +391,7 @@ export default function Home() {
               <span className="inline-block mt-3 text-sm">Web application</span>
               <div className="relative mt-6 after:content-[''] lg:after:h-[260px] after:w-full after:absolute after:bottom-0 after:left-0 after:bg-gradient-to-t after:from-black  after:duration-300 after:to-black/0 group-hover:after:h-0 duration-300">
                 <Image
-                  src="/portfolio/twitter-clone/cover2.jpg"
+                  src="/portfolio/twitter-clone/thumbnail.jpg"
                   width="1000"
                   height="750"
                   alt="Twitter clone app"
@@ -408,7 +408,7 @@ export default function Home() {
               <span className="inline-block mt-3 text-sm">Landing Page</span>
               <div className="relative mt-6 after:content-[''] lg:after:h-[260px] after:w-full after:absolute after:bottom-0 after:left-0 after:bg-gradient-to-t after:from-black  after:duration-300 after:to-black/0 group-hover:after:h-0 duration-300">
                 <Image
-                  src="/portfolio/url-shortener/cover.jpg"
+                  src="/portfolio/url-shortener/thumbnail.jpg"
                   width="1000"
                   height="750"
                   alt="Espacio Manila Gallery"

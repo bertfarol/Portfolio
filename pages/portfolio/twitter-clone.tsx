@@ -67,7 +67,7 @@ export default function TwitterClone() {
                 </a>
               </div>
               <div className="mt-8 lg:mt-16">
-                <p className="text-sm text-slate-500">Technology:</p>
+                <p className="text-sm text-slate-500">Technologies:</p>
                 <ul className="flex flex-wrap gap-6 mt-2 text-base">
                   <li className="flex items-center gap-2">
                     <Icon icon="logos:nextjs-icon" className="w-6 h-6" />
