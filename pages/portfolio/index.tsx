@@ -26,7 +26,7 @@ export default function ArtGallery() {
           <div className="px-4 mx-auto max-w-7xl md:px-8">
             <div className="text-center">
               <h1 className="text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl xl:text-h2">
-                Web Dev Journey
+                Portfolio
               </h1>
               <p className="mt-2">
                 Highlighting my growth and accomplishments through website

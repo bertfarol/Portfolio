@@ -49,19 +49,6 @@ export default function GreenCleaner() {
                 impact of my design choices on my portfolio website and elevate
                 your ecommerce presence.
               </p>
-              {/* <div className="flex mt-6 lg:mt-14">
-                <a
-                  href="https://bertfarol.github.io/applab-bootstrap/"
-                  target="_blank"
-                  className="bg-accent-blue flex items-center gap-2 hover:bg-accent-blue/80 text-white font-bold text-sm px-4 py-3.5 rounded-lg w-full sm:w-auto justify-center"
-                >
-                  View Applab
-                  <Icon
-                    icon="formkit:arrowright"
-                    className="hidden w-5 h-5 -rotate-45 sm:inline-block"
-                  />
-                </a>
-              </div> */}
               <div className="mt-8 lg:mt-16">
                 <div className="mt-8">
                   <p className="text-sm text-slate-500">Design Tools:</p>

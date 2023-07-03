@@ -2,6 +2,7 @@ import Layout from "@/components/Layout";
 import { Icon } from "@iconify/react";
 import Image from "next/image";
 import Link from "next/link";
+import { PrimaryButton } from "@/components/Button";
 
 export default function ApplabClone() {
   return (
@@ -51,17 +52,13 @@ export default function ApplabClone() {
                 bring ideas to life.
               </p>
               <div className="flex mt-6 lg:mt-14">
-                <a
+                <PrimaryButton
                   href="https://bertfarol.github.io/applab-bootstrap/"
+                  icon="formkit:arrowright"
                   target="_blank"
-                  className="bg-accent-blue flex items-center gap-2 hover:bg-accent-blue/80 text-white font-bold text-sm px-4 py-3.5 rounded-lg w-full sm:w-auto justify-center"
                 >
                   View Applab
-                  <Icon
-                    icon="formkit:arrowright"
-                    className="hidden w-5 h-5 -rotate-45 sm:inline-block"
-                  />
-                </a>
+                </PrimaryButton>
               </div>
               <div className="mt-8 lg:mt-16">
                 <p className="text-sm text-slate-500">Technologies:</p>
