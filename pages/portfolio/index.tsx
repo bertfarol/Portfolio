@@ -1,5 +1,4 @@
 import Layout from "@/components/Layout";
-import PortfolioCard from "@/components/PortfolioCard";
 import Image from "next/image";
 import Link from "next/link";
 import { ReactNode } from "react";
