@@ -35,7 +35,7 @@ export const Navbar = () => {
             />
           </li>
           {navLinks.map((link) => (
-            <li>
+            <li key={link.name}>
               <Link
                 href={link.path}
                 target={link.target}
