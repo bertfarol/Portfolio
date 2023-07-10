@@ -55,13 +55,19 @@ export const Navbar = () => {
       <nav className="flex items-center justify-between px-5 h-[68px]">
         <div>
           <Link href="/" className="font-semibold">
-            <Image src="/logo-transparent.svg" height={19.85} width={49.69} alt="engelbert farol" />
+            <Image
+              src="/logo-transparent.svg"
+              height={19.85}
+              width={49.69}
+              alt="engelbert farol"
+            />
           </Link>
         </div>
         <div className="hidden gap-2 text-sm font-medium lg:flex">
           {/* Desktop menu */}
           {desktopLinks.map((link) => (
             <Link
+              key={link.name}
               href={link.path}
               target={link.target}
               className={`${
