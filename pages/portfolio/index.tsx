@@ -57,7 +57,7 @@ export default function ArtGallery() {
               <Link href="/portfolio/twitter-clone" className="group">
                 <div className="relative overflow-hidden duration-300 rounded-lg group-hover:opacity-70 shadow-5xl">
                   <Image
-                    src="/portfolio/twitter-clone/thumbnail.jpg"
+                    src="/portfolio/twitter-clone/thumbnail_01.jpg"
                     width="800"
                     height="800"
                     alt="Twitter clone app"

@@ -119,6 +119,14 @@ export default function TwitterClone() {
               </h2>
               <div className="mt-8">
                 <Image
+                  src="/portfolio/twitter-clone/twitter_login.jpg"
+                  width="1920"
+                  height="947"
+                  alt="Twitter Clone App"
+                />
+              </div>
+              <div className="mt-8">
+                <Image
                   src="/portfolio/twitter-clone/twitter-app.jpg"
                   width="1216"
                   height="917"
