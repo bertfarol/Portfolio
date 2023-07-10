@@ -2,14 +2,27 @@ import { Icon } from "@iconify/react";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import { useRouter } from "next/router";
 
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const router = useRouter();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const navLinks = [
+    { name: "Home", path: "/", target: "_self" },
+    { name: "Portfolio", path: "/portfolio", target: "_self" },
+    { name: "Resume", path: "/resume.pdf", target: "_blank" },
+    { name: "Contact", path: "#contact", target: "_self" },
+  ];
+
+  // exclude home link to desktop
+  const desktopLinks = navLinks.slice(1);
+
+  // Mobile menu
   const mobileNav = () => {
     return (
       <div className="fixed top-0 left-0 z-10 w-full h-full gap-2 text-lg font-medium bg-white">
@@ -21,55 +34,17 @@ export const Navbar = () => {
               onClick={toggleMenu}
             />
           </li>
-          <li>
-            <Link
-              href="/"
-              className="text-2xl p-5 border-y border-[#f3f3f3] block"
-            >
-              Home
-            </Link>
-          </li>
-          {/* <li>
-            <Link
-              href="#"
-              className="text-gray-400 font-normal cursor-not-allowed text-2xl p-5 border-b border-[#f3f3f3] block"
-            >
-              About
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="#"
-              className="text-gray-400 font-normal cursor-not-allowed text-2xl p-5 border-b border-[#f3f3f3] block"
-            >
-              Service
-            </Link>
-          </li> */}
-          <li>
-            <Link
-              href="/portfolio"
-              className="text-2xl p-5 border-b border-[#f3f3f3] block"
-            >
-              Portfolio
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/resume.pdf"
-              target="_blank"
-              className="text-2xl p-5 border-b border-[#f3f3f3] block"
-            >
-              Resume
-            </Link>
-          </li>
-          <li>
-            <a
-              href="#contact"
-              className="text-2xl p-5 border-b border-[#f3f3f3] block"
-            >
-              Contact
-            </a>
-          </li>
+          {navLinks.map((link) => (
+            <li>
+              <Link
+                href={link.path}
+                target={link.target}
+                className="text-2xl p-5 border-y border-[#f3f3f3] block"
+              >
+                {link.name}
+              </Link>
+            </li>
+          ))}
         </ul>
       </div>
     );
@@ -79,31 +54,23 @@ export const Navbar = () => {
     <header className="mx-auto max-w-7xl">
       <nav className="flex items-center justify-between px-5 h-[68px]">
         <div>
-          <Link href="/">
-            <Image
-              height="45"
-              width="45"
-              src="/e-icon.svg"
-              alt="engelbert farol"
-            />
+          <Link href="/" className="font-semibold">
+            <Image src="/logo-transparent.svg" height={19.85} width={49.69} alt="engelbert farol" />
           </Link>
         </div>
         <div className="hidden gap-2 text-sm font-medium lg:flex">
-          {/* <Link href="#" className="p-3 text-gray-400 cursor-not-allowed">
-            About
-          </Link>
-          <Link href="#" className="p-3 text-gray-400 cursor-not-allowed">
-            Service
-          </Link> */}
-          <Link href="/portfolio" className="p-3 hover:text-accent-blue">
-            Portfolio
-          </Link>
-          <Link href="/resume.pdf" className="p-3 hover:text-accent-blue" target="_blank">
-            Resume
-          </Link>
-          <a href="#contact" className="p-3 hover:text-accent-blue">
-            Contact
-          </a>
+          {/* Desktop menu */}
+          {desktopLinks.map((link) => (
+            <Link
+              href={link.path}
+              target={link.target}
+              className={`${
+                router.pathname === link.path ? "text-accent-blue" : ""
+              } p-3 hover:text-accent-blue`}
+            >
+              {link.name}
+            </Link>
+          ))}
         </div>
         <Icon
           icon="clarity:menu-line"

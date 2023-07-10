@@ -8,8 +8,8 @@ export default function Hero() {
         <h1 className="text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl xl:text-h1">
           Creating User-Friendly and Captivating Websites
         </h1>
-        <p className="max-w-sm mx-auto mt-6 text-base font-normal text-black/80">
-          Hi, I&#39;m Bert, a Front-End Developer dedicated to transforming
+        <p className="max-w-lg mx-auto mt-6 text-base font-normal text-black/80">
+          Hi, I&#39;m Engelbert Farol, a Front-End Developer dedicated to transforming
           ideas into captivating digital solutions.
         </p>
         <div className="flex justify-center mt-6 lg:mt-14">

@@ -33,7 +33,7 @@ export default function ArtGallery() {
             <div className="max-w-4xl">
               <p className="text-accent-blue">Portfolio and Business Website</p>
               <h1 className="text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl xl:text-h2">
-                Espacio Manila Gallery: Redefining Art Experiences Online
+                Espacio Manila Gallery
               </h1>
               <p className="mt-4 relative after:content-[''] after:absolute after:left-0 after:top-2.5 after:bg-black lg:after:h-[2px] after:w-7 lg:pl-[57px] text-black/80">
                 Transforming the Art Gallery Website with NextJS and Enhanced

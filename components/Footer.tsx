@@ -10,7 +10,7 @@ export const Footer = () => {
       <div className="max-w-lg px-4 pb-12 mx-auto lg:pb-60">
         <p className="text-[#0D99FF]">Contact</p>
         <h2 className="text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl xl:text-h2">
-          Let&#39;s Discuss Your Project
+          Contact Information
         </h2>
         <div className="pt-2 mt-12 border-t border-black lg:border-t-2 sm:pt-4 sm:flex sm:items-center sm:gap-3 lg:gap-6">
           <div className="hidden sm:flex bg-black rounded-full h-[58px] w-[58px] items-center justify-center group">

@@ -1,4 +1,5 @@
 import Layout from "@/components/Layout";
+import PortfolioCard from "@/components/PortfolioCard";
 import Image from "next/image";
 import Link from "next/link";
 import { ReactNode } from "react";
@@ -21,23 +22,16 @@ export default function ArtGallery() {
       description="List of responsive and user-friendly websites"
       image="/portfolio-ogimage.jpg"
     >
-      <main className="py-8 lg:py-24 lg:bg-[url('/blur_services.png')] bg-no-repeat bg-top bg-contain">
+      <main className="py-8 lg:py-24">
         <section>
           <div className="px-4 mx-auto max-w-7xl md:px-8">
-            <div className="text-center">
-              <h1 className="text-4xl font-bold leading-tight sm:text-5xl lg:text-6xl xl:text-h2">
+            <div>
+              <h1 className="mb-8 text-2xl font-bold leading-tight ">
                 Portfolio
               </h1>
-              <p className="mt-2">
-                Highlighting my growth and accomplishments through website
-                projects
-              </p>
             </div>
-            <div className="grid sm:grid-cols-2 sm:gap-6 lg:gap-10 md:grid-cols-3">
-              <Link
-                href="/portfolio/art-gallery"
-                className="pt-2 mt-12 group lg:pt-5"
-              >
+            <div className="grid sm:grid-cols-2 sm:gap-y-8 lg:gap-y-12 sm:gap-x-6 lg:gap-x-10 md:grid-cols-3">
+              <Link href="/portfolio/art-gallery" className="group">
                 <div className="relative overflow-hidden duration-300 rounded-lg group-hover:opacity-70 shadow-5xl">
                   <Image
                     src="/portfolio/espacio-manila/thumbnail.jpg"
@@ -52,7 +46,7 @@ export default function ArtGallery() {
                 <span className="inline-block mt-1 text-sm">
                   Portfolio and Business Website
                 </span>
-                <div className="flex gap-2 mt-2">
+                <div className="flex flex-wrap gap-2 mt-2">
                   <Badge>Next.js</Badge>
                   <Badge>TypeScript</Badge>
                   <Badge>Tailwindcss</Badge>
@@ -61,10 +55,7 @@ export default function ArtGallery() {
                   <Badge>Vercel</Badge>
                 </div>
               </Link>
-              <Link
-                href="/portfolio/twitter-clone"
-                className="pt-2 mt-12 group lg:pt-5"
-              >
+              <Link href="/portfolio/twitter-clone" className="group">
                 <div className="relative overflow-hidden duration-300 rounded-lg group-hover:opacity-70 shadow-5xl">
                   <Image
                     src="/portfolio/twitter-clone/thumbnail.jpg"
@@ -73,25 +64,27 @@ export default function ArtGallery() {
                     alt="Twitter clone app"
                   />
                 </div>
-                <h3 className="mt-6 font-semibold duration-300 text-h5 group-hover:text-accent-blue">
-                  Twitter Clone
-                </h3>
-                <span className="inline-block mt-1 text-sm">
-                  Web application
-                </span>
-                <div className="flex flex-wrap gap-2 mt-2 ">
-                  <Badge>Next.js</Badge>
-                  <Badge>NextAuth.js</Badge>
-                  <Badge>SWR</Badge>
-                  <Badge>TypeScript</Badge>
-                  <Badge>Tailwindcss</Badge>
-                  <Badge>Sanity.io</Badge>
-                  <Badge>Vercel</Badge>
+                <div className="bg-white">
+                  <h3 className="mt-6 font-semibold duration-300 text-h5 group-hover:text-accent-blue">
+                    Twitter Clone
+                  </h3>
+                  <span className="inline-block mt-1 text-sm">
+                    Web application
+                  </span>
+                  <div className="flex flex-wrap gap-2 mt-2 ">
+                    <Badge>Next.js</Badge>
+                    <Badge>NextAuth.js</Badge>
+                    <Badge>SWR</Badge>
+                    <Badge>TypeScript</Badge>
+                    <Badge>Tailwindcss</Badge>
+                    <Badge>Sanity.io</Badge>
+                    <Badge>Vercel</Badge>
+                  </div>
                 </div>
               </Link>
               <Link
                 href="/portfolio/url-shortener-landing-page"
-                className="pt-2 mt-12 group lg:pt-5"
+                className="group"
               >
                 <div className="relative overflow-hidden duration-300 rounded-lg group-hover:opacity-70 shadow-5xl">
                   <Image
@@ -110,10 +103,7 @@ export default function ArtGallery() {
                   <Badge>Tailwindcss</Badge>
                 </div>
               </Link>
-              <Link
-                href="/portfolio/applab-clone"
-                className="pt-2 mt-12 group lg:pt-5"
-              >
+              <Link href="/portfolio/applab-clone" className="group">
                 <div className="relative overflow-hidden duration-300 rounded-lg group-hover:opacity-70 shadow-5xl">
                   <Image
                     src="/portfolio/applab/thumbnail.jpg"
@@ -134,10 +124,7 @@ export default function ArtGallery() {
                   <Badge>JQuery</Badge>
                 </div>
               </Link>
-              <Link
-                href="/portfolio/green-cleaner"
-                className="pt-2 mt-12 group lg:pt-5"
-              >
+              <Link href="/portfolio/green-cleaner" className="group">
                 <div className="relative overflow-hidden duration-300 rounded-lg group-hover:opacity-70 shadow-5xl">
                   <Image
                     src="/portfolio/green-cleaner/thumbnail.jpg"

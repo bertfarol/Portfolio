@@ -15,7 +15,7 @@ export default function Layout({ children, title, description, image }: LayoutPr
     <>
       <Head>
         <title>{title}</title>
-        <link rel="icon" href="/e-icon-dark.svg" />
+        <link rel="icon" href="/logo-white-bg.svg" />
         <meta name="description" content={description} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta property="og:title" content={title} />
