@@ -82,6 +82,31 @@ export default function ArtGallery() {
                 </div>
               </Link>
               <Link
+                href="/portfolio/group-chat-messenger"
+                className="group"
+              >
+                <div className="relative overflow-hidden duration-300 rounded-lg group-hover:opacity-70 shadow-5xl">
+                  <Image
+                    src="/portfolio/realtime-group-chat/thumbnail.jpg"
+                    width="800"
+                    height="800"
+                    alt="Group Chat Messenger"
+                  />
+                </div>
+                <h3 className="mt-6 font-semibold duration-300 text-h5 group-hover:text-accent-blue ">
+                  Group Chat Messenger
+                </h3>
+                <span className="inline-block mt-1 text-sm">
+                  Web Application
+                </span>
+                <div className="flex flex-wrap gap-2 mt-2 ">
+                  <Badge>React.js</Badge>
+                  <Badge>Tailwindcss</Badge>
+                  <Badge>Firebase Authentication</Badge>
+                  <Badge>Firestore Database</Badge>
+                </div>
+              </Link>
+              <Link
                 href="/portfolio/url-shortener-landing-page"
                 className="group"
               >

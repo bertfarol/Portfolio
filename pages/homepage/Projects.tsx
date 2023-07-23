@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { SecondaryButton } from "../Button";
+import { SecondaryButton } from "../../components/Button";
 
 export default function Projects() {
   return (
@@ -32,8 +32,8 @@ export default function Projects() {
             <div className="relative mt-6 after:content-[''] lg:after:h-[260px] after:w-full after:absolute after:bottom-0 after:left-0 after:bg-gradient-to-t after:from-black  after:duration-300 after:to-black/0 group-hover:after:h-0 duration-300">
               <Image
                 src="/portfolio/espacio-manila/thumbnail.jpg"
-                width="1000"
-                height="750"
+                width="800"
+                height="800"
                 alt="Espacio Manila Gallery"
               />
             </div>
@@ -49,26 +49,26 @@ export default function Projects() {
             <div className="relative mt-6 after:content-[''] lg:after:h-[260px] after:w-full after:absolute after:bottom-0 after:left-0 after:bg-gradient-to-t after:from-black  after:duration-300 after:to-black/0 group-hover:after:h-0 duration-300">
               <Image
                 src="/portfolio/twitter-clone/thumbnail_01.jpg"
-                width="1000"
-                height="750"
+                width="800"
+                height="800"
                 alt="Twitter clone app"
               />
             </div>
           </Link>
           <Link
-            href="/portfolio/url-shortener-landing-page"
+            href="/portfolio/group-chat-messenger"
             className="pt-2 mt-12 text-white border-t border-white group lg:pt-5"
           >
             <h3 className="text-3xl font-semibold duration-300 xl:text-h3 group-hover:text-accent-blue">
-              URL Shortener
+              Group Chat Messenger
             </h3>
-            <span className="inline-block mt-3 text-sm">Landing Page</span>
+            <span className="inline-block mt-3 text-sm">Web application</span>
             <div className="relative mt-6 after:content-[''] lg:after:h-[260px] after:w-full after:absolute after:bottom-0 after:left-0 after:bg-gradient-to-t after:from-black  after:duration-300 after:to-black/0 group-hover:after:h-0 duration-300">
               <Image
-                src="/portfolio/url-shortener/thumbnail.jpg"
-                width="1000"
-                height="750"
-                alt="Espacio Manila Gallery"
+                src="/portfolio/realtime-group-chat/thumbnail.jpg"
+                width="800"
+                height="800"
+                alt="Group Chat"
               />
             </div>
           </Link>

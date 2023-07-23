@@ -1,5 +1,5 @@
 import { Icon } from "@iconify/react";
-import { PrimaryButton } from "../Button";
+import { PrimaryButton } from "../../components/Button";
 
 export default function Hero() {
   return (

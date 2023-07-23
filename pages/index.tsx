@@ -1,7 +1,7 @@
 import Layout from "@/components/Layout";
-import Hero from "@/components/homepage/Hero";
-import Experience from "@/components/homepage/Experience";
-import Projects from "@/components/homepage/Projects";
+import Hero from "@/pages/homepage/Hero";
+import Experience from "@/pages/homepage/Experience";
+import Projects from "@/pages/homepage/Projects";
 
 
 export default function Home() {
