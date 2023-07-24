@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Espacio Manila",
+    "category": "Portfolio and Business Website",
+    "stack": ["Next.js", "TypeScript", "Tailwindcss", "Figma", "PSD", "Vercel"],
+    "image": "/portfolio/espacio-manila/thumbnail.jpg",
+    "pageUrl": "/portfolio/art-gallery"
+  },
+  {
+    "title": "Twitter Clone",
+    "category": "Web application",
+    "stack": [
+      "Next.js",
+      "NextAuth.js",
+      "SWR",
+      "TypeScript",
+      "Tailwindcss",
+      "Sanity.io",
+      "Vercel"
+    ],
+    "image": "/portfolio/twitter-clone/thumbnail_01.jpg",
+    "pageUrl": "/portfolio/twitter-clone"
+  },
+  {
+    "title": "Group Chat Messenger",
+    "category": "Web application",
+    "stack": [
+      "React.js",
+      "Tailwindcss",
+      "Firebase Authentication",
+      "Firestore Database"
+    ],
+    "image": "/portfolio/realtime-group-chat/thumbnail.jpg",
+    "pageUrl": "/portfolio/group-chat-messenger"
+  },
+  {
+    "title": "Applab",
+    "category": "Landing Page",
+    "stack": ["HTML5", "CSS3", "Bootstrap", "JavaScript", "JQuery"],
+    "image": "/portfolio/applab/thumbnail.jpg",
+    "pageUrl": "/portfolio/applab-clone"
+  },
+  {
+    "title": "Green Cleaner",
+    "category": "Web Design/Landing Page",
+    "stack": ["Figma", "PSD"],
+    "image": "/portfolio/green-cleaner/thumbnail.jpg",
+    "pageUrl": "/portfolio/green-cleaner"
+  }
+]

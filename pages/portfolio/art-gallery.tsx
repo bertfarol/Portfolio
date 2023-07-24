@@ -42,12 +42,16 @@ export default function ArtGallery() {
             </div>
             <div className="max-w-4xl mt-6 text-base md:mt-12 md:text-lg">
               <p className="mb-4 leading-relaxed">
-                Espacio Manila Gallery is a redesigned art gallery website that
-                I have built using Next.js. This new version showcases a
-                remarkable transformation compared to the previous design. The
-                website exhibits exceptional speed and performance, ensuring a
-                seamless browsing experience for visitors. To visit the existing
-                website, you can still access the old version at{" "}
+                I have recently undertaken a revamp of the original website that
+                I initially developed using WordPress. Now, I have taken it a
+                step further by leveraging Next.js to enhance the website's
+                visual appeal and optimize its performance for faster loading
+                times, especially crucial for high-quality artwork images. It's
+                worth noting that I am also the one who originally created the
+                WordPress site.
+              </p>
+              <p className="leading-relaxed">
+                You can view the primary website here: <br />
                 <a
                   href="https://espaciomanilagallery.com/"
                   className="underline text-accent-blue hover:no-underline"
@@ -55,22 +59,11 @@ export default function ArtGallery() {
                 >
                   https://espaciomanilagallery.com/
                 </a>
-                .
               </p>
-              <p className="leading-relaxed">
-                While the website is currently in its prototype stage, it
-                demonstrates the exciting possibilities for Espacio Manila
-                Gallery in the digital world. The minimalist design I
-                implemented puts the focus on the vibrant artwork, allowing it
-                to truly shine. Visitors can explore carefully curated
-                exhibitions, discover talented artists, and appreciate the
-                stunning imagery that showcases the gallery&apos;s exceptional
-                art collection. Although the new website is not yet live, you
-                can still visit the existing website via the provided link to
-                catch a glimpse of the gallery&apos;s offerings and immerse
-                yourself in its artistic ambiance.
+              <p className="mt-8 leading-relaxed">
+                You can view the <em>revamped website</em> here:
               </p>
-              <div className="flex mt-6 lg:mt-14">
+              <div className="flex mt-6">
                 <PrimaryButton
                   href="https://espacio-manila.vercel.app/"
                   icon="formkit:arrowright"
@@ -116,118 +109,82 @@ export default function ArtGallery() {
                   </li>
                 </ul>
               </div>
-              <div className="mt-8">
-                <p className="text-sm text-slate-500">Website pages:</p>
-                <ul className="flex flex-wrap gap-4 mt-2 text-base text-accent-blue">
-                  <li>
-                    <a href="#home" className=" hover:underline">
-                      #Homepage
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#artworks" className=" hover:underline">
-                      #Artworks page
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#exhibitions" className=" hover:underline">
-                      #Exhibitions page
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#contact" className=" hover:underline">
-                      #Contact page
-                    </a>
-                  </li>
-                </ul>
-              </div>
             </div>
           </div>
         </section>
 
-        <section className="py-8 lg:py-36 bg-[#292929]">
-          <div className="px-4 mx-auto text-white max-w-7xl md:px-8">
-            {/* contianer */}
-            <div id="home">
-              <h2 className="text-3xl font-semibold lg:mt-0 xl:text-h3">
-                Homepage
-              </h2>
-              <div className="mt-8">
+        <section className="py-8 lg:py-36 bg-[#f5f5f5]">
+          <div className="px-4 mx-auto max-w-7xl md:px-8">
+            <h1 className="max-w-xl text-4xl font-bold leading-tight sm:text-5xl">
+              Web Design
+            </h1>
+            <div className="mt-10 xl:columns-3 gap-x-10 columns-1 md:columns-2">
+              {/* contianer */}
+              <div className="py-4">
                 <Image
                   src="/portfolio/espacio-manila/homepage.png"
                   width="1920"
                   height="4220"
                   alt="Espacio Manila Gallery"
+                  className="rounded-lg shadow-gallery"
                 />
               </div>
-            </div>
-
-            <div id="artworks" className="mt-10 lg:mt-16">
-              <h2 className="text-3xl font-semibold lg:mt-0 xl:text-h3">
-                Artworks Page
-              </h2>
-              <div className="mt-8">
+              <div className="py-4">
                 <Image
                   src="/portfolio/espacio-manila/artworks-page.png"
                   width="1920"
                   height="1740"
                   alt="Espacio Manila Gallery"
+                  className="rounded-lg shadow-gallery"
                 />
               </div>
-              <div className="mt-6">
+              <div className="py-4">
                 <Image
                   src="/portfolio/espacio-manila/artwork-single-page.png"
                   width="1920"
                   height="947"
                   alt="Espacio Manila Gallery"
+                  className="rounded-lg shadow-gallery"
                 />
               </div>
-              <div className="mt-6">
+              <div className="py-4">
                 <Image
                   src="/portfolio/espacio-manila/artwork-view-in-room.png"
                   width="1920"
                   height="947"
                   alt="Espacio Manila Gallery"
+                  className="rounded-lg shadow-gallery"
                 />
               </div>
-            </div>
-
-            <div id="exhibitions" className="mt-10 lg:mt-16">
-              <h2 className="text-3xl font-semibold lg:mt-0 xl:text-h3">
-                Exhibitions Page
-              </h2>
-              <div className="mt-8">
+              <div className="py-4">
                 <Image
                   src="/portfolio/espacio-manila/exhibitions-page.png"
                   width="1920"
                   height="1986"
                   alt="Espacio Manila Gallery"
+                  className="rounded-lg shadow-gallery"
                 />
               </div>
-              <div className="mt-6">
+              <div className="py-4">
                 <Image
                   src="/portfolio/espacio-manila/exhibition-single-page.png"
                   width="1920"
                   height="1809"
                   alt="Espacio Manila Gallery"
+                  className="rounded-lg shadow-gallery"
                 />
               </div>
-            </div>
-
-            <div id="contact" className="mt-10 lg:mt-16">
-              <h2 className="text-3xl font-semibold lg:mt-0 xl:text-h3">
-                Contact Page
-              </h2>
-              <div className="mt-8">
+              <div className="py-4">
                 <Image
                   src="/portfolio/espacio-manila/contact-page.png"
                   width="1920"
                   height="1611"
                   alt="Espacio Manila Gallery"
+                  className="rounded-lg shadow-gallery"
                 />
               </div>
+              {/* end**contianer */}
             </div>
-            {/* end**contianer */}
           </div>
         </section>
       </main>

@@ -99,19 +99,18 @@ export default function ApplabClone() {
           </div>
         </section>
 
-        <section className="py-8 lg:py-36 bg-[#23187B]">
-          <div className="px-4 mx-auto text-white max-w-7xl md:px-8">
+        <section className="py-8 lg:py-36 bg-[#f5f5f5]">
+          <div className="px-4 mx-auto max-w-7xl md:px-8">
             {/* contianer */}
-            <div id="home">
-              <h2 className="text-3xl font-semibold lg:mt-0 xl:text-h3">
-                Applab
-              </h2>
-              <div className="mt-8">
+            <h2 className="text-4xl font-semibold">Applab</h2>
+            <div className="mt-10">
+              <div className="py-4">
                 <Image
                   src="/portfolio/applab/homepage.png"
                   width="1356"
                   height="7273"
                   alt="Twitter Clone App"
+                  className="rounded-lg shadow-gallery"
                 />
               </div>
             </div>

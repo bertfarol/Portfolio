@@ -91,16 +91,15 @@ export default function GroupChatMessenger() {
         <section className="py-8 lg:py-36 bg-[#092152]">
           <div className="px-4 mx-auto text-white max-w-7xl md:px-8">
             {/* contianer */}
-            <div id="home">
-              <h2 className="text-3xl font-semibold lg:mt-0 xl:text-h3">
-                Group Chat Messenger
-              </h2>
-              <div className="mt-8">
+            <h2 className="text-4xl font-semibold">Group Chat Messenger</h2>
+            <div className="mt-10">
+              <div className="py-4">
                 <Image
                   src="/portfolio/realtime-group-chat/group-chat-login.png"
                   width="1920"
                   height="947"
                   alt="Group Chat Messenger"
+                  className="rounded-lg shadow-gallery"
                 />
               </div>
             </div>

@@ -112,25 +112,25 @@ export default function TwitterClone() {
 
         <section className="py-8 lg:py-36 bg-[#40C1F1]">
           <div className="px-4 mx-auto text-white max-w-7xl md:px-8">
+            <h2 className="text-4xl font-semibold">Twitter App</h2>
             {/* contianer */}
-            <div id="home">
-              <h2 className="text-3xl font-semibold lg:mt-0 xl:text-h3">
-                Twitter App
-              </h2>
-              <div className="mt-8">
+            <div className="mt-10 lg:columns-2 gap-x-10 columns-1">
+              <div className="py-4">
                 <Image
                   src="/portfolio/twitter-clone/twitter_login.jpg"
                   width="1920"
                   height="947"
                   alt="Twitter Clone App"
+                  className="rounded-lg shadow-gallery"
                 />
               </div>
-              <div className="mt-8">
+              <div className="py-4">
                 <Image
                   src="/portfolio/twitter-clone/twitter-app.jpg"
                   width="1216"
                   height="917"
                   alt="Twitter Clone App"
+                  className="rounded-lg shadow-gallery"
                 />
               </div>
             </div>
