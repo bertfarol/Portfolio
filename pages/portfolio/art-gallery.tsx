@@ -44,9 +44,9 @@ export default function ArtGallery() {
               <p className="mb-4 leading-relaxed">
                 I have recently undertaken a revamp of the original website that
                 I initially developed using WordPress. Now, I have taken it a
-                step further by leveraging Next.js to enhance the website's
+                step further by leveraging Next.js to enhance the website&apos;s
                 visual appeal and optimize its performance for faster loading
-                times, especially crucial for high-quality artwork images. It's
+                times, especially crucial for high-quality artwork images. It&apos;s
                 worth noting that I am also the one who originally created the
                 WordPress site.
               </p>
