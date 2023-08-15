@@ -15,7 +15,7 @@ export const Navbar = () => {
   const navLinks = [
     { name: "Home", path: "/", target: "_self" },
     { name: "Portfolio", path: "/portfolio", target: "_self" },
-    { name: "Resume", path: "/resume.pdf", target: "_blank" },
+    { name: "Resume", path: "/cv_engelbert.pdf", target: "_blank" },
     { name: "Contact", path: "#contact", target: "_self" },
   ];
 
